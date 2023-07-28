@@ -1,0 +1,126 @@
+* {
+    margin: 0px;
+    align-items: center;
+
+}
+
+body{
+    background:linear-gradient(120deg, #d4fc79 0%, #96e6a1 100%);
+}
+
+/* Styling the main container */
+
+#main-container {
+    width: 100vw;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+/* Styling nav-bar */
+#fav-nav-bar {
+    height: 12vh;
+    width: 100vw;
+    background-color: rgb(209, 129, 173);
+    color: black;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+}
+/* styling home page button in fav dish page */
+#home:hover {
+    box-shadow: 2px 2px 5px 2px black;
+    padding: 2px;
+    border-radius: 10px;
+}
+/* styling the entire dish container where the items are wrapped around*/
+#favorite-dish {
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    margin-top: 20px;
+    width: 90vw;
+    flex-wrap: wrap;
+}
+/* Styling the individual dish container */
+
+.dish-card {
+    min-width: 250px;
+    min-height: 300px;
+    padding: 20px;
+    max-width: 280px;
+    max-height: 400px;
+    margin: 15px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    border-radius: 40px;
+    box-shadow: 2px 2px 10px 5px rgb(214, 80, 18);
+}
+
+.dish-card:hover {
+    transition: 0.5s;
+    background: radial-gradient(#fd5c63,#E9967A);
+    color: white;
+}
+/* Styling the image of the dish */
+.thumb {
+    height: 150px;
+    width: 150px;
+    margin: 10px;
+    padding: 35px;
+}
+
+/* styling the name of the dish and fav, unfav btn */
+.item-container {
+    /* border: 1px solid black; */
+    display: flex;
+    text-align: center;
+    align-items: center;
+    justify-content: space-evenly;
+    margin: 10px;
+}
+.item-container input {
+    background-color: transparent;
+    border-radius: 20px;
+    border: none;
+    outline: none;
+    color: rgb(5, 5, 5);
+    padding: 5px;
+    box-shadow: 2px 2px 2px 5px orange;
+
+}
+
+.item-container input:hover {
+    transition: 0.3s;
+    background: linear-gradient(135deg, #22aadb, #bd98c4);
+    color: white;
+}
+
+.item-container a {
+    margin: 10px;
+}
+
+.item-container a:hover {
+    color: white;
+    transition: 0.5s;
+
+}
+/* styling the logo of the application 
+#logo {
+
+    height: 40px;
+    width: 40px;
+    border-radius: 50%;
+    margin: 10px 30vw 10px 50px;
+}*/
+
+/* styling the anchor tags to remove hyperlink underline and to change color */
+a {
+    text-decoration: none;
+    background: transparent;
+    color: rgb(36, 33, 33);
+}
+a:hover{
+    color: blue;
+}
